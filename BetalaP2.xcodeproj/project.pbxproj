@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF70D6DE22CC0C86000A53C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6DD22CC0C86000A53C3 /* AppDelegate.swift */; };
+		DF70D6E022CC0C86000A53C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6DF22CC0C86000A53C3 /* SceneDelegate.swift */; };
+		DF70D6E222CC0C86000A53C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6E122CC0C86000A53C3 /* ContentView.swift */; };
+		DF70D6E422CC0C87000A53C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF70D6E322CC0C87000A53C3 /* Assets.xcassets */; };
+		DF70D6E722CC0C87000A53C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF70D6E622CC0C87000A53C3 /* Preview Assets.xcassets */; };
+		DF70D6EA22CC0C87000A53C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF70D6E822CC0C87000A53C3 /* LaunchScreen.storyboard */; };
+		DF70D6F522CC0C87000A53C3 /* BetalaP2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6F422CC0C87000A53C3 /* BetalaP2Tests.swift */; };
+		DF70D70022CC0C87000A53C3 /* BetalaP2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6FF22CC0C87000A53C3 /* BetalaP2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF70D6F122CC0C87000A53C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF70D6D222CC0C86000A53C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF70D6D922CC0C86000A53C3;
+			remoteInfo = BetalaP2;
+		};
+		DF70D6FC22CC0C87000A53C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF70D6D222CC0C86000A53C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF70D6D922CC0C86000A53C3;
+			remoteInfo = BetalaP2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF70D6DA22CC0C86000A53C3 /* BetalaP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetalaP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF70D6DD22CC0C86000A53C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF70D6DF22CC0C86000A53C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF70D6E122CC0C86000A53C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF70D6E322CC0C87000A53C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF70D6E622CC0C87000A53C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF70D6E922CC0C87000A53C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF70D6EB22CC0C87000A53C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF70D6F022CC0C87000A53C3 /* BetalaP2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetalaP2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF70D6F422CC0C87000A53C3 /* BetalaP2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetalaP2Tests.swift; sourceTree = "<group>"; };
+		DF70D6F622CC0C87000A53C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF70D6FB22CC0C87000A53C3 /* BetalaP2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetalaP2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF70D6FF22CC0C87000A53C3 /* BetalaP2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetalaP2UITests.swift; sourceTree = "<group>"; };
+		DF70D70122CC0C87000A53C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF70D6D722CC0C86000A53C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF70D6ED22CC0C87000A53C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF70D6F822CC0C87000A53C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF70D6D122CC0C86000A53C3 = {
+			isa = PBXGroup;
+			children = (
+				DF70D6DC22CC0C86000A53C3 /* BetalaP2 */,
+				DF70D6F322CC0C87000A53C3 /* BetalaP2Tests */,
+				DF70D6FE22CC0C87000A53C3 /* BetalaP2UITests */,
+				DF70D6DB22CC0C86000A53C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF70D6DB22CC0C86000A53C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF70D6DA22CC0C86000A53C3 /* BetalaP2.app */,
+				DF70D6F022CC0C87000A53C3 /* BetalaP2Tests.xctest */,
+				DF70D6FB22CC0C87000A53C3 /* BetalaP2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF70D6DC22CC0C86000A53C3 /* BetalaP2 */ = {
+			isa = PBXGroup;
+			children = (
+				DF70D6DD22CC0C86000A53C3 /* AppDelegate.swift */,
+				DF70D6DF22CC0C86000A53C3 /* SceneDelegate.swift */,
+				DF70D6E122CC0C86000A53C3 /* ContentView.swift */,
+				DF70D6E322CC0C87000A53C3 /* Assets.xcassets */,
+				DF70D6E822CC0C87000A53C3 /* LaunchScreen.storyboard */,
+				DF70D6EB22CC0C87000A53C3 /* Info.plist */,
+				DF70D6E522CC0C87000A53C3 /* Preview Content */,
+			);
+			path = BetalaP2;
+			sourceTree = "<group>";
+		};
+		DF70D6E522CC0C87000A53C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF70D6E622CC0C87000A53C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF70D6F322CC0C87000A53C3 /* BetalaP2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF70D6F422CC0C87000A53C3 /* BetalaP2Tests.swift */,
+				DF70D6F622CC0C87000A53C3 /* Info.plist */,
+			);
+			path = BetalaP2Tests;
+			sourceTree = "<group>";
+		};
+		DF70D6FE22CC0C87000A53C3 /* BetalaP2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF70D6FF22CC0C87000A53C3 /* BetalaP2UITests.swift */,
+				DF70D70122CC0C87000A53C3 /* Info.plist */,
+			);
+			path = BetalaP2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF70D6D922CC0C86000A53C3 /* BetalaP2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF70D70422CC0C87000A53C3 /* Build configuration list for PBXNativeTarget "BetalaP2" */;
+			buildPhases = (
+				DF70D6D622CC0C86000A53C3 /* Sources */,
+				DF70D6D722CC0C86000A53C3 /* Frameworks */,
+				DF70D6D822CC0C86000A53C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetalaP2;
+			productName = BetalaP2;
+			productReference = DF70D6DA22CC0C86000A53C3 /* BetalaP2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF70D6EF22CC0C87000A53C3 /* BetalaP2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF70D70722CC0C87000A53C3 /* Build configuration list for PBXNativeTarget "BetalaP2Tests" */;
+			buildPhases = (
+				DF70D6EC22CC0C87000A53C3 /* Sources */,
+				DF70D6ED22CC0C87000A53C3 /* Frameworks */,
+				DF70D6EE22CC0C87000A53C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF70D6F222CC0C87000A53C3 /* PBXTargetDependency */,
+			);
+			name = BetalaP2Tests;
+			productName = BetalaP2Tests;
+			productReference = DF70D6F022CC0C87000A53C3 /* BetalaP2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF70D6FA22CC0C87000A53C3 /* BetalaP2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF70D70A22CC0C87000A53C3 /* Build configuration list for PBXNativeTarget "BetalaP2UITests" */;
+			buildPhases = (
+				DF70D6F722CC0C87000A53C3 /* Sources */,
+				DF70D6F822CC0C87000A53C3 /* Frameworks */,
+				DF70D6F922CC0C87000A53C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF70D6FD22CC0C87000A53C3 /* PBXTargetDependency */,
+			);
+			name = BetalaP2UITests;
+			productName = BetalaP2UITests;
+			productReference = DF70D6FB22CC0C87000A53C3 /* BetalaP2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF70D6D222CC0C86000A53C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Karl Söderberg";
+				TargetAttributes = {
+					DF70D6D922CC0C86000A53C3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					DF70D6EF22CC0C87000A53C3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = DF70D6D922CC0C86000A53C3;
+					};
+					DF70D6FA22CC0C87000A53C3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = DF70D6D922CC0C86000A53C3;
+					};
+				};
+			};
+			buildConfigurationList = DF70D6D522CC0C86000A53C3 /* Build configuration list for PBXProject "BetalaP2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF70D6D122CC0C86000A53C3;
+			productRefGroup = DF70D6DB22CC0C86000A53C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF70D6D922CC0C86000A53C3 /* BetalaP2 */,
+				DF70D6EF22CC0C87000A53C3 /* BetalaP2Tests */,
+				DF70D6FA22CC0C87000A53C3 /* BetalaP2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF70D6D822CC0C86000A53C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF70D6EA22CC0C87000A53C3 /* LaunchScreen.storyboard in Resources */,
+				DF70D6E722CC0C87000A53C3 /* Preview Assets.xcassets in Resources */,
+				DF70D6E422CC0C87000A53C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF70D6EE22CC0C87000A53C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF70D6F922CC0C87000A53C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF70D6D622CC0C86000A53C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF70D6DE22CC0C86000A53C3 /* AppDelegate.swift in Sources */,
+				DF70D6E022CC0C86000A53C3 /* SceneDelegate.swift in Sources */,
+				DF70D6E222CC0C86000A53C3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF70D6EC22CC0C87000A53C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF70D6F522CC0C87000A53C3 /* BetalaP2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF70D6F722CC0C87000A53C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF70D70022CC0C87000A53C3 /* BetalaP2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF70D6F222CC0C87000A53C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF70D6D922CC0C86000A53C3 /* BetalaP2 */;
+			targetProxy = DF70D6F122CC0C87000A53C3 /* PBXContainerItemProxy */;
+		};
+		DF70D6FD22CC0C87000A53C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF70D6D922CC0C86000A53C3 /* BetalaP2 */;
+			targetProxy = DF70D6FC22CC0C87000A53C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF70D6E822CC0C87000A53C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF70D6E922CC0C87000A53C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF70D70222CC0C87000A53C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF70D70322CC0C87000A53C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF70D70522CC0C87000A53C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "BetalaP2/Preview\\ Content";
+				DEVELOPMENT_TEAM = N856DL6EH7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BetalaP2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF70D70622CC0C87000A53C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "BetalaP2/Preview\\ Content";
+				DEVELOPMENT_TEAM = N856DL6EH7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BetalaP2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF70D70822CC0C87000A53C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N856DL6EH7;
+				INFOPLIST_FILE = BetalaP2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetalaP2.app/BetalaP2";
+			};
+			name = Debug;
+		};
+		DF70D70922CC0C87000A53C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N856DL6EH7;
+				INFOPLIST_FILE = BetalaP2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetalaP2.app/BetalaP2";
+			};
+			name = Release;
+		};
+		DF70D70B22CC0C87000A53C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N856DL6EH7;
+				INFOPLIST_FILE = BetalaP2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetalaP2;
+			};
+			name = Debug;
+		};
+		DF70D70C22CC0C87000A53C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N856DL6EH7;
+				INFOPLIST_FILE = BetalaP2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetalaP2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF70D6D522CC0C86000A53C3 /* Build configuration list for PBXProject "BetalaP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF70D70222CC0C87000A53C3 /* Debug */,
+				DF70D70322CC0C87000A53C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF70D70422CC0C87000A53C3 /* Build configuration list for PBXNativeTarget "BetalaP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF70D70522CC0C87000A53C3 /* Debug */,
+				DF70D70622CC0C87000A53C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF70D70722CC0C87000A53C3 /* Build configuration list for PBXNativeTarget "BetalaP2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF70D70822CC0C87000A53C3 /* Debug */,
+				DF70D70922CC0C87000A53C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF70D70A22CC0C87000A53C3 /* Build configuration list for PBXNativeTarget "BetalaP2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF70D70B22CC0C87000A53C3 /* Debug */,
+				DF70D70C22CC0C87000A53C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF70D6D222CC0C86000A53C3 /* Project object */;
+}
