@@ -8,25 +8,15 @@
 
 import SwiftUI
 
-enum Time: String, CaseIterable {
-    case albania
-    case belgium
-    case chile
-    case germany
-    case hungary
-    case iceland
-    case mazedonia
-    case portugal
-    case switzerland
-}
-
 struct ContentView : View {
     
-
-
-    
     var body: some View {
-        TimePickerView()
+        NavigationView{
+            VStack {
+                
+                TimePickerView(selectedHour: .constant(3), selectedMinute: .constant(5))
+            }.navigationBarTitle(Text("Betala P"), displayMode: .inline).navigationBarItems(leading: Text("Burger"))
+        }
     }
 }
 

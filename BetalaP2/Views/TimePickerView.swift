@@ -12,75 +12,79 @@ import SwiftUI
 
 struct TimePickerView : View {
     
-    @State private var selectedHour: Int = 0
-    @State private var selectedMinute: Int = 0
-    
-    
-    func increaseHour() {
-        selectedHour += 1
-    }
-    func decreaseHour() {
-        selectedHour -= 1
-    }
-    func increaseMinute() {
-        selectedMinute += 1
-    }
-    func decreaseMinute() {
-        selectedMinute -= 1
-    }
+    @Binding var selectedHour: Int
+    @Binding var selectedMinute: Int
     
     var body: some View {
         Group {
             VStack {
-                
-                Text("Ange Parkeringstid")
-                
+                Text("Ange Parkeringstid").font(.headline)
                 HStack {
                     VStack {
-                        Text("Timmar")
-                        VStack {
-                            Button(action: increaseHour) {
-                                Text("+")
-                            }
-                            Text($selectedHour.value.description)
-                            Button(action: decreaseHour) {
-                                Text("-")
-                            }
-                            }
-                            .frame(width: 40, height: nil, alignment: .center)
-                            .background(Color.gray)
-                            .cornerRadius(10)
+                        Text("Timmar").font(.title)
+                        ValuePicker(value: $selectedHour)
                     }
                     VStack {
-                        Text("Minuter")
-                        VStack {
-                            Button(action: increaseMinute) {
-                                Text("+")
-                            }
-                            Text($selectedMinute.value.description)
-                            Button(action: decreaseMinute) {
-                                Text("-")
-                            }
-                            }
-                            .frame(width: 40, height: nil, alignment: .center)
-                            .background(Color.gray)
-                            .cornerRadius(10)
+                        Text("Minuter").font(.title)
+                        ValuePicker(value: $selectedMinute)
                     }
                 }
                 }
                 .foregroundColor(.white)
                 .padding(20)
             
+            
             }
             .background(Color.black.opacity(0.3))
-            .cornerRadius(10)
+            .cornerRadius(10).foregroundColor(.white)
+        
+        
+    }
+    
+    struct ValuePicker : View {
+        
+        @Binding var value: Int
+        
+        func increase() {
+            value += 1
+        }
+        func decrease() {
+            value -= 1
+        }
+        
+        var body: some View {
+            return VStack {
+                Button(action: increase) {
+                    Text("+")
+                    }.fill()
+                
+                Text(value.description)
+                    .fill()
+                
+                Button(action: decrease) {
+                    Text("-")
+                    }
+                    .fill()
+                }
+                .frame(width: 60, height: 100, alignment: .center)
+                .background(Color.gray)
+                .cornerRadius(10)
+        }
     }
 }
 
 #if DEBUG
 struct TimePickerView_Previews : PreviewProvider {
     static var previews: some View {
-        TimePickerView()
+        TimePickerView(selectedHour: .constant(3), selectedMinute: .constant(7))
     }
 }
 #endif
+
+public extension View {
+    @inlinable func fill() -> Self.Modified<_FlexFrameLayout> {
+        return self.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+    }
+}
+
+
