@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF25A16422CC1B2E00A837CB /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16322CC1B2E00A837CB /* PaymentConfiguration.swift */; };
+		DF25A16622CC1B7A00A837CB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16522CC1B7A00A837CB /* Car.swift */; };
+		DF25A16822CC1B8800A837CB /* ParkingUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16722CC1B8800A837CB /* ParkingUser.swift */; };
+		DF25A16A22CC1B9900A837CB /* DeliveryAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16922CC1B9900A837CB /* DeliveryAddress.swift */; };
+		DF25A16C22CC1D0400A837CB /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16B22CC1D0400A837CB /* Locale.swift */; };
+		DF25A16E22CC1E6A00A837CB /* EasyparkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16D22CC1E6A00A837CB /* EasyparkAPI.swift */; };
 		DF70D6DE22CC0C86000A53C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6DD22CC0C86000A53C3 /* AppDelegate.swift */; };
 		DF70D6E022CC0C86000A53C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6DF22CC0C86000A53C3 /* SceneDelegate.swift */; };
 		DF70D6E222CC0C86000A53C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6E122CC0C86000A53C3 /* ContentView.swift */; };
@@ -15,6 +21,15 @@
 		DF70D6EA22CC0C87000A53C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF70D6E822CC0C87000A53C3 /* LaunchScreen.storyboard */; };
 		DF70D6F522CC0C87000A53C3 /* BetalaP2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6F422CC0C87000A53C3 /* BetalaP2Tests.swift */; };
 		DF70D70022CC0C87000A53C3 /* BetalaP2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D6FF22CC0C87000A53C3 /* BetalaP2UITests.swift */; };
+		DFFD760422CC169A00EE6A5B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD75FF22CC169A00EE6A5B /* ApiClient.swift */; };
+		DFFD760522CC169A00EE6A5B /* QapitaliOSTestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD760022CC169A00EE6A5B /* QapitaliOSTestApi.swift */; };
+		DFFD760622CC169A00EE6A5B /* NetworkDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD760122CC169A00EE6A5B /* NetworkDecoder.swift */; };
+		DFFD760722CC169A00EE6A5B /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD760322CC169A00EE6A5B /* Future.swift */; };
+		DFFD760A22CC18A500EE6A5B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD760922CC18A500EE6A5B /* Profile.swift */; };
+		DFFD760C22CC18D300EE6A5B /* BillingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD760B22CC18D300EE6A5B /* BillingAccount.swift */; };
+		DFFD760E22CC18F900EE6A5B /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD760D22CC18F900EE6A5B /* Customer.swift */; };
+		DFFD761022CC191900EE6A5B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD760F22CC191900EE6A5B /* Country.swift */; };
+		DFFD761222CC194A00EE6A5B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD761122CC194A00EE6A5B /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF25A16322CC1B2E00A837CB /* PaymentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
+		DF25A16522CC1B7A00A837CB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		DF25A16722CC1B8800A837CB /* ParkingUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingUser.swift; sourceTree = "<group>"; };
+		DF25A16922CC1B9900A837CB /* DeliveryAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryAddress.swift; sourceTree = "<group>"; };
+		DF25A16B22CC1D0400A837CB /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		DF25A16D22CC1E6A00A837CB /* EasyparkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyparkAPI.swift; sourceTree = "<group>"; };
 		DF70D6DA22CC0C86000A53C3 /* BetalaP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetalaP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF70D6DD22CC0C86000A53C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF70D6DF22CC0C86000A53C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,15 @@
 		DF70D6FB22CC0C87000A53C3 /* BetalaP2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetalaP2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF70D6FF22CC0C87000A53C3 /* BetalaP2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetalaP2UITests.swift; sourceTree = "<group>"; };
 		DF70D70122CC0C87000A53C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFD75FF22CC169A00EE6A5B /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		DFFD760022CC169A00EE6A5B /* QapitaliOSTestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QapitaliOSTestApi.swift; sourceTree = "<group>"; };
+		DFFD760122CC169A00EE6A5B /* NetworkDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDecoder.swift; sourceTree = "<group>"; };
+		DFFD760322CC169A00EE6A5B /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		DFFD760922CC18A500EE6A5B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		DFFD760B22CC18D300EE6A5B /* BillingAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingAccount.swift; sourceTree = "<group>"; };
+		DFFD760D22CC18F900EE6A5B /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		DFFD760F22CC191900EE6A5B /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		DFFD761122CC194A00EE6A5B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +129,8 @@
 		DF70D6DC22CC0C86000A53C3 /* BetalaP2 */ = {
 			isa = PBXGroup;
 			children = (
+				DFFD760822CC16F000EE6A5B /* Models */,
+				DFFD75FE22CC169A00EE6A5B /* API */,
 				DF70D6DD22CC0C86000A53C3 /* AppDelegate.swift */,
 				DF70D6DF22CC0C86000A53C3 /* SceneDelegate.swift */,
 				DF70D6E122CC0C86000A53C3 /* ContentView.swift */,
@@ -134,6 +166,43 @@
 				DF70D70122CC0C87000A53C3 /* Info.plist */,
 			);
 			path = BetalaP2UITests;
+			sourceTree = "<group>";
+		};
+		DFFD75FE22CC169A00EE6A5B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DFFD75FF22CC169A00EE6A5B /* ApiClient.swift */,
+				DFFD760022CC169A00EE6A5B /* QapitaliOSTestApi.swift */,
+				DFFD760122CC169A00EE6A5B /* NetworkDecoder.swift */,
+				DFFD760222CC169A00EE6A5B /* Future */,
+				DF25A16D22CC1E6A00A837CB /* EasyparkAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DFFD760222CC169A00EE6A5B /* Future */ = {
+			isa = PBXGroup;
+			children = (
+				DFFD760322CC169A00EE6A5B /* Future.swift */,
+			);
+			path = Future;
+			sourceTree = "<group>";
+		};
+		DFFD760822CC16F000EE6A5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFFD760922CC18A500EE6A5B /* Profile.swift */,
+				DFFD760B22CC18D300EE6A5B /* BillingAccount.swift */,
+				DFFD760D22CC18F900EE6A5B /* Customer.swift */,
+				DFFD760F22CC191900EE6A5B /* Country.swift */,
+				DFFD761122CC194A00EE6A5B /* Login.swift */,
+				DF25A16322CC1B2E00A837CB /* PaymentConfiguration.swift */,
+				DF25A16522CC1B7A00A837CB /* Car.swift */,
+				DF25A16722CC1B8800A837CB /* ParkingUser.swift */,
+				DF25A16922CC1B9900A837CB /* DeliveryAddress.swift */,
+				DF25A16B22CC1D0400A837CB /* Locale.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +336,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF25A16822CC1B8800A837CB /* ParkingUser.swift in Sources */,
+				DFFD760A22CC18A500EE6A5B /* Profile.swift in Sources */,
+				DFFD760E22CC18F900EE6A5B /* Customer.swift in Sources */,
+				DF25A16422CC1B2E00A837CB /* PaymentConfiguration.swift in Sources */,
 				DF70D6DE22CC0C86000A53C3 /* AppDelegate.swift in Sources */,
+				DFFD761222CC194A00EE6A5B /* Login.swift in Sources */,
+				DFFD760C22CC18D300EE6A5B /* BillingAccount.swift in Sources */,
+				DFFD760722CC169A00EE6A5B /* Future.swift in Sources */,
 				DF70D6E022CC0C86000A53C3 /* SceneDelegate.swift in Sources */,
+				DFFD760522CC169A00EE6A5B /* QapitaliOSTestApi.swift in Sources */,
+				DF25A16E22CC1E6A00A837CB /* EasyparkAPI.swift in Sources */,
+				DF25A16A22CC1B9900A837CB /* DeliveryAddress.swift in Sources */,
+				DFFD761022CC191900EE6A5B /* Country.swift in Sources */,
+				DFFD760622CC169A00EE6A5B /* NetworkDecoder.swift in Sources */,
 				DF70D6E222CC0C86000A53C3 /* ContentView.swift in Sources */,
+				DF25A16622CC1B7A00A837CB /* Car.swift in Sources */,
+				DFFD760422CC169A00EE6A5B /* ApiClient.swift in Sources */,
+				DF25A16C22CC1D0400A837CB /* Locale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AppMeat.BetalaP2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

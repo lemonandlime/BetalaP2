@@ -12,9 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        let api = EasyparkAPI()
+//        api.setCredentials(username: "+46762009702", password: "Ljungstrom63")
+//        api.getProfile().run { getProfile in
+//            do {
+//                let profile = try getProfile()
+//                print(profile)
+//            } catch {
+//                print(error)
+//            }
+//        }
         return true
     }
 
