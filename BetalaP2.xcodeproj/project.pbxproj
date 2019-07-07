@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF110FDE22D286C7002E5121 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF110FDD22D286C7002E5121 /* TimePickerView.swift */; };
 		DF25A16422CC1B2E00A837CB /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16322CC1B2E00A837CB /* PaymentConfiguration.swift */; };
 		DF25A16622CC1B7A00A837CB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16522CC1B7A00A837CB /* Car.swift */; };
 		DF25A16822CC1B8800A837CB /* ParkingUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16722CC1B8800A837CB /* ParkingUser.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF110FDD22D286C7002E5121 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
 		DF25A16322CC1B2E00A837CB /* PaymentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
 		DF25A16522CC1B7A00A837CB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		DF25A16722CC1B8800A837CB /* ParkingUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingUser.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF110FDC22D286A8002E5121 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF110FDD22D286C7002E5121 /* TimePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DF70D6D122CC0C86000A53C3 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 		DF70D6DC22CC0C86000A53C3 /* BetalaP2 */ = {
 			isa = PBXGroup;
 			children = (
+				DF110FDC22D286A8002E5121 /* Views */,
 				DFFD760822CC16F000EE6A5B /* Models */,
 				DFFD75FE22CC169A00EE6A5B /* API */,
 				DF70D6DD22CC0C86000A53C3 /* AppDelegate.swift */,
@@ -339,6 +350,7 @@
 				DF25A16822CC1B8800A837CB /* ParkingUser.swift in Sources */,
 				DFFD760A22CC18A500EE6A5B /* Profile.swift in Sources */,
 				DFFD760E22CC18F900EE6A5B /* Customer.swift in Sources */,
+				DF110FDE22D286C7002E5121 /* TimePickerView.swift in Sources */,
 				DF25A16422CC1B2E00A837CB /* PaymentConfiguration.swift in Sources */,
 				DF70D6DE22CC0C86000A53C3 /* AppDelegate.swift in Sources */,
 				DFFD761222CC194A00EE6A5B /* Login.swift in Sources */,

@@ -23,52 +23,10 @@ enum Time: String, CaseIterable {
 struct ContentView : View {
     
 
-    @State private var selectedHour: Int = 0
-    @State private var selectedMinute: Int = 0
 
     
-    func increaseHour() {
-        selectedHour += 1
-    }
-    func decreaseHour() {
-        selectedHour -= 1
-    }
-    func increaseMinute() {
-        selectedMinute += 1
-    }
-    func decreaseMinute() {
-        selectedMinute -= 1
-    }
-    
     var body: some View {
-            VStack {
-                
-                Text("Ange Parkeringstid")
-                
-                HStack {
-                    VStack {
-                        Text("Timmar")
-                        Button(action: increaseHour) {
-                            Text("+")
-                        }
-                        Text($selectedHour.value.description)
-                        Button(action: decreaseHour) {
-                            Text("-")
-                        }
-                    }
-                    VStack {
-                        Text("Minuter")
-                        Button(action: increaseMinute) {
-                            Text("+")
-                        }
-                        Text($selectedMinute.value.description)
-                        Button(action: decreaseMinute) {
-                            Text("-")
-                        }
-                    }
-                }
-            }
-        
+        TimePickerView()
     }
 }
 
