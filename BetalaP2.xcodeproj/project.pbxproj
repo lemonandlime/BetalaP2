@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44BEA19122E263F20075B743 /* ValuePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BEA19022E263F20075B743 /* ValuePickerView.swift */; };
 		DF110FDE22D286C7002E5121 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF110FDD22D286C7002E5121 /* TimePickerView.swift */; };
 		DF25A16422CC1B2E00A837CB /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16322CC1B2E00A837CB /* PaymentConfiguration.swift */; };
 		DF25A16622CC1B7A00A837CB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25A16522CC1B7A00A837CB /* Car.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44BEA19022E263F20075B743 /* ValuePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuePickerView.swift; sourceTree = "<group>"; };
 		DF110FDD22D286C7002E5121 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
 		DF25A16322CC1B2E00A837CB /* PaymentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfiguration.swift; sourceTree = "<group>"; };
 		DF25A16522CC1B7A00A837CB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				DF110FDD22D286C7002E5121 /* TimePickerView.swift */,
+				44BEA19022E263F20075B743 /* ValuePickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				DFFD760C22CC18D300EE6A5B /* BillingAccount.swift in Sources */,
 				DFFD760722CC169A00EE6A5B /* Future.swift in Sources */,
 				DF70D6E022CC0C86000A53C3 /* SceneDelegate.swift in Sources */,
+				44BEA19122E263F20075B743 /* ValuePickerView.swift in Sources */,
 				DFFD760522CC169A00EE6A5B /* QapitaliOSTestApi.swift in Sources */,
 				DF25A16E22CC1E6A00A837CB /* EasyparkAPI.swift in Sources */,
 				DF25A16A22CC1B9900A837CB /* DeliveryAddress.swift in Sources */,

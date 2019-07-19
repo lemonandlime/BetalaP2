@@ -8,7 +8,11 @@
 
 import SwiftUI
 
-
+//public extension View {
+//    @inlinable func fill() -> Self.Modified<_FlexFrameLayout> {
+//        return self.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+//    }
+//}
 
 struct TimePickerView : View {
     
@@ -18,17 +22,23 @@ struct TimePickerView : View {
     var body: some View {
         Group {
             VStack {
-                Text("Ange Parkeringstid").font(.headline)
+                Text("Ange Parkeringstid").font(.title)
                 HStack {
                     VStack {
-                        Text("Timmar").font(.title)
-                        ValuePicker(value: $selectedHour)
-                    }
+                        Text("Timmar")
+                            .padding(.bottom, 2)
+                            .font(.headline)
+                        ValuePickerView(value: $selectedHour)
+                        }
+                        .padding()
                     VStack {
-                        Text("Minuter").font(.title)
-                        ValuePicker(value: $selectedMinute)
+                        Text("Minuter")
+                            .padding(.bottom, 2)
+                            .font(.headline)
+                        ValuePickerView(value: $selectedMinute)
+                        }
+                        .padding()
                     }
-                }
                 }
                 .foregroundColor(.white)
                 .padding(20)
@@ -36,40 +46,11 @@ struct TimePickerView : View {
             
             }
             .background(Color.black.opacity(0.3))
-            .cornerRadius(10).foregroundColor(.white)
+            .cornerRadius(10)
+            .foregroundColor(.white)
+            .shadow(radius: 10)
         
         
-    }
-    
-    struct ValuePicker : View {
-        
-        @Binding var value: Int
-        
-        func increase() {
-            value += 1
-        }
-        func decrease() {
-            value -= 1
-        }
-        
-        var body: some View {
-            return VStack {
-                Button(action: increase) {
-                    Text("+")
-                    }.fill()
-                
-                Text(value.description)
-                    .fill()
-                
-                Button(action: decrease) {
-                    Text("-")
-                    }
-                    .fill()
-                }
-                .frame(width: 60, height: 100, alignment: .center)
-                .background(Color.gray)
-                .cornerRadius(10)
-        }
     }
 }
 
@@ -81,10 +62,6 @@ struct TimePickerView_Previews : PreviewProvider {
 }
 #endif
 
-public extension View {
-    @inlinable func fill() -> Self.Modified<_FlexFrameLayout> {
-        return self.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-    }
-}
+
 
 
